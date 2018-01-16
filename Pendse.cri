@@ -1,0 +1,89 @@
+Skibur
+ifenemy 0 +2
+go +3
+infect
+go 1
+ifwall 0 +2
+go +3
+left
+go 1
+ifempty 0 +2
+go +3
+hop
+go 1
+ifenemy 45 +2
+go +4
+ifangle 45 225 +2
+go +2
+go 75
+ifenemy 90 +2
+go +4
+ifangle 90 270 +2
+go +2
+go 75
+ifenemy 135 +2
+go +4
+ifangle 135 315 +2
+go +2
+go 75
+ifenemy 180 +2
+go +4
+ifangle 180 0 +2
+go +2
+go 75
+ifenemy 225 +2
+go +4
+ifangle 225 45 +2
+go +2
+go 75
+ifenemy 270 +2
+go +4
+ifangle 270 90 +2
+go +2
+go 75
+ifenemy 315 +2
+go +4
+ifangle 315 135 +2
+go +2
+go 75
+ifenemy 0 +2
+go +4
+ifangle 0 180 +2
+go +2
+go 75
+ifenemy 45 +2
+go +3
+left
+go 1
+ifenemy 315 +2
+go +3
+right
+go 1
+ifwall 45 +2
+go +3
+left
+go 1
+ifwall 315 +2
+go +3
+right
+go 1
+ifrandom +2
+go +3
+left
+go 1
+right
+go 1
+ifally 0 +2
+go +3
+right
+go 1
+ifempty 0 +2
+go +3
+hop
+go 1
+ifwall 0 +2
+go +2
+left
+go 1
+
+This critter is the baddest critter in the whole wide world.
